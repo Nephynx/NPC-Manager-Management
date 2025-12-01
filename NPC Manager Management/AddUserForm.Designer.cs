@@ -35,6 +35,7 @@
             textBox1 = new TextBox();
             textBox2 = new TextBox();
             textBox3 = new TextBox();
+            buttonClear = new Button();
             SuspendLayout();
             // 
             // label1
@@ -98,11 +99,21 @@
             textBox3.Size = new Size(190, 23);
             textBox3.TabIndex = 6;
             // 
+            // buttonClear
+            // 
+            buttonClear.Location = new Point(444, 194);
+            buttonClear.Name = "buttonClear";
+            buttonClear.Size = new Size(75, 23);
+            buttonClear.TabIndex = 7;
+            buttonClear.Text = "CREATE";
+            buttonClear.UseVisualStyleBackColor = true;
+            // 
             // AddUserForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(buttonClear);
             Controls.Add(textBox3);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
@@ -125,5 +136,6 @@
         private TextBox textBox1;
         private TextBox textBox2;
         private TextBox textBox3;
+        private Button buttonClear;
     }
 }
