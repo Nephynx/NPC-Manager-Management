@@ -62,7 +62,6 @@
             label3.Size = new Size(127, 41);
             label3.TabIndex = 1;
             label3.Text = "Password";
-            label3.Click += label3_Click;
             // 
             // buttonSubmit
             // 
@@ -72,7 +71,7 @@
             buttonSubmit.TabIndex = 3;
             buttonSubmit.Text = "Submit";
             buttonSubmit.UseVisualStyleBackColor = true;
-            buttonSubmit.Click += button4_Click;
+            buttonSubmit.Click += buttonSubmit_Click_1;
             // 
             // checkBox1
             // 
@@ -110,10 +109,6 @@
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(177, 23);
             textBox2.TabIndex = 6;
-            // 
-            // backgroundWorker1
-            // 
-            backgroundWorker1.DoWork += backgroundWorker1_DoWork;
             // 
             // label4
             // 
@@ -166,7 +161,6 @@
             Controls.Add(label6);
             Name = "UserLogin";
             Text = "Form1";
-            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }

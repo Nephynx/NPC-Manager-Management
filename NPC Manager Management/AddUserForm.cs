@@ -1,5 +1,4 @@
-﻿using SQLite;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,20 +10,11 @@ using System.Windows.Forms;
 
 namespace NPC_Manager_Management
 {
-    public partial class UserHome : Form
+    public partial class AddUserForm : Form
     {
-        public UserHome()
+        public AddUserForm()
         {
             InitializeComponent();
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void UserHome_Load(object sender, EventArgs e)
-        {
         }
     }
 }

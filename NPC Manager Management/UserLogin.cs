@@ -7,23 +7,7 @@ namespace NPC_Manager_Management
         {
             InitializeComponent();
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void backgroundWorker1_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
-        {
-
-        }
-
-        private void buttonSubmit_Click(object sender, EventArgs e)
+        private void buttonSubmit_Click_1(object sender, EventArgs e)
         {
 
         }
