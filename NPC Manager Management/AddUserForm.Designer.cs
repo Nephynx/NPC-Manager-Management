@@ -28,12 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "AddUserfrom";
+            buttonClear = new Button();
+            SuspendLayout();
+            // 
+            // buttonClear
+            // 
+            buttonClear.Location = new Point(363, 214);
+            buttonClear.Name = "buttonClear";
+            buttonClear.Size = new Size(75, 23);
+            buttonClear.TabIndex = 8;
+            buttonClear.Text = "CREATE";
+            buttonClear.UseVisualStyleBackColor = true;
+            // 
+            // AddUserForm
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(buttonClear);
+            Name = "AddUserForm";
+            Text = "AddUserfrom";
+            Load += this.AddUserForm_Load;
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private Button buttonClear;
     }
 }
