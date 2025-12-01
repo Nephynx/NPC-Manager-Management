@@ -30,7 +30,7 @@
         {
             label2 = new Label();
             label3 = new Label();
-            button4 = new Button();
+            buttonSubmit = new Button();
             checkBox1 = new CheckBox();
             label1 = new Label();
             textBox1 = new TextBox();
@@ -64,14 +64,15 @@
             label3.Text = "Password";
             label3.Click += label3_Click;
             // 
-            // button4
+            // buttonSubmit
             // 
-            button4.Location = new Point(440, 306);
-            button4.Name = "button4";
-            button4.Size = new Size(75, 23);
-            button4.TabIndex = 3;
-            button4.Text = "Submit";
-            button4.UseVisualStyleBackColor = true;
+            buttonSubmit.Location = new Point(440, 306);
+            buttonSubmit.Name = "buttonSubmit";
+            buttonSubmit.Size = new Size(75, 23);
+            buttonSubmit.TabIndex = 3;
+            buttonSubmit.Text = "Submit";
+            buttonSubmit.UseVisualStyleBackColor = true;
+            buttonSubmit.Click += button4_Click;
             // 
             // checkBox1
             // 
@@ -156,7 +157,7 @@
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Controls.Add(checkBox1);
-            Controls.Add(button4);
+            Controls.Add(buttonSubmit);
             Controls.Add(label1);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -173,7 +174,7 @@
         #endregion
         private Label label2;
         private Label label3;
-        private Button button4;
+        private Button buttonSubmit;
         private CheckBox checkBox1;
         private Label label1;
         private TextBox textBox1;
