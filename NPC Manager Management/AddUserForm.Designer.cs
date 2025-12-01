@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             buttonClear = new Button();
-            textBox3 = new TextBox();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
+            txtPassword = new TextBox();
+            txtUsername = new TextBox();
+            txtEmail = new TextBox();
             label4 = new Label();
             label3 = new Label();
             label2 = new Label();
@@ -40,33 +40,36 @@
             // 
             // buttonClear
             // 
-            buttonClear.Location = new Point(422, 220);
+            buttonClear.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            buttonClear.Location = new Point(217, 224);
             buttonClear.Name = "buttonClear";
-            buttonClear.Size = new Size(75, 23);
+            buttonClear.Size = new Size(271, 46);
             buttonClear.TabIndex = 8;
             buttonClear.Text = "CREATE";
             buttonClear.UseVisualStyleBackColor = true;
+            buttonClear.Click += buttonClear_Click;
             // 
-            // textBox3
+            // txtPassword
             // 
-            textBox3.Location = new Point(292, 181);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(190, 23);
-            textBox3.TabIndex = 15;
+            txtPassword.Location = new Point(292, 181);
+            txtPassword.Name = "txtPassword";
+            txtPassword.PasswordChar = '*';
+            txtPassword.Size = new Size(208, 23);
+            txtPassword.TabIndex = 15;
             // 
-            // textBox2
+            // txtUsername
             // 
-            textBox2.Location = new Point(292, 145);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(175, 23);
-            textBox2.TabIndex = 14;
+            txtUsername.Location = new Point(292, 150);
+            txtUsername.Name = "txtUsername";
+            txtUsername.Size = new Size(208, 23);
+            txtUsername.TabIndex = 14;
             // 
-            // textBox1
+            // txtEmail
             // 
-            textBox1.Location = new Point(292, 116);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 13;
+            txtEmail.Location = new Point(292, 116);
+            txtEmail.Name = "txtEmail";
+            txtEmail.Size = new Size(208, 23);
+            txtEmail.TabIndex = 13;
             // 
             // label4
             // 
@@ -113,9 +116,9 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(txtPassword);
+            Controls.Add(txtUsername);
+            Controls.Add(txtEmail);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -130,9 +133,9 @@
         #endregion
 
         private Button buttonClear;
-        private TextBox textBox3;
-        private TextBox textBox2;
-        private TextBox textBox1;
+        private TextBox txtPassword;
+        private TextBox txtUsername;
+        private TextBox txtEmail;
         private Label label4;
         private Label label3;
         private Label label2;
