@@ -33,7 +33,7 @@
             // 
             // buttonClear
             // 
-            buttonClear.Location = new Point(363, 214);
+            buttonClear.Location = new Point(422, 220);
             buttonClear.Name = "buttonClear";
             buttonClear.Size = new Size(75, 23);
             buttonClear.TabIndex = 8;
@@ -48,7 +48,6 @@
             Controls.Add(buttonClear);
             Name = "AddUserForm";
             Text = "AddUserfrom";
-            Load += this.AddUserForm_Load;
             ResumeLayout(false);
         }
 
