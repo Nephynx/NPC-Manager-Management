@@ -31,7 +31,6 @@
             label2 = new Label();
             label3 = new Label();
             buttonSubmit = new Button();
-            checkBox1 = new CheckBox();
             label1 = new Label();
             LoginUsername = new TextBox();
             LoginPassword = new TextBox();
@@ -65,24 +64,13 @@
             // 
             // buttonSubmit
             // 
-            buttonSubmit.Location = new Point(440, 306);
+            buttonSubmit.Location = new Point(372, 328);
             buttonSubmit.Name = "buttonSubmit";
             buttonSubmit.Size = new Size(75, 23);
             buttonSubmit.TabIndex = 3;
-            buttonSubmit.Text = "Submit";
+            buttonSubmit.Text = "Login";
             buttonSubmit.UseVisualStyleBackColor = true;
             buttonSubmit.Click += buttonSubmit_Click;
-            // 
-            // checkBox1
-            // 
-            checkBox1.AutoSize = true;
-            checkBox1.BackColor = Color.Transparent;
-            checkBox1.Location = new Point(332, 308);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(102, 19);
-            checkBox1.TabIndex = 5;
-            checkBox1.Text = "save password";
-            checkBox1.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
@@ -107,6 +95,7 @@
             LoginPassword.Font = new Font("Lucida Sans", 10F);
             LoginPassword.Location = new Point(338, 248);
             LoginPassword.Name = "LoginPassword";
+            LoginPassword.PasswordChar = '*';
             LoginPassword.Size = new Size(177, 23);
             LoginPassword.TabIndex = 6;
             // 
@@ -151,7 +140,6 @@
             ClientSize = new Size(800, 450);
             Controls.Add(LoginPassword);
             Controls.Add(LoginUsername);
-            Controls.Add(checkBox1);
             Controls.Add(buttonSubmit);
             Controls.Add(label1);
             Controls.Add(label3);
@@ -169,7 +157,6 @@
         private Label label2;
         private Label label3;
         private Button buttonSubmit;
-        private CheckBox checkBox1;
         private Label label1;
         private TextBox LoginUsername;
         private TextBox LoginPassword;

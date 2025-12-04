@@ -25,7 +25,6 @@ namespace NPC_Manager_Management
 
         private void UserHome_Load(object sender, EventArgs e)
         {
-            SQLiteCommand 
         }
     }
 }
