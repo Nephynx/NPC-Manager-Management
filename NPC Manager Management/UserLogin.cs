@@ -8,19 +8,30 @@ namespace NPC_Manager_Management
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void buttonSubmit_Click(object sender, EventArgs e)
         {
-            
-        }
+            string adminUsername = "Saxton";
+            string adminPassword = "12345678";
 
-        private void label3_Click(object sender, EventArgs e)
-        {
+            string username = LoginUsername.Text;
+            string password = LoginPassword.Text;
 
-        }
-
-        private void backgroundWorker1_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
-        {
-
+            if (string.IsNullOrWhiteSpace(username)
+                || string.IsNullOrWhiteSpace(password))
+            {
+                MessageBox.Show("Error!", "Incorrect Input"
+                    , MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                if (username == adminUsername && password == adminPassword)
+                {
+                    MessageBox.Show("Login!", "Successfully",
+                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                UserHome userhome = new UserHome();
+                userhome.ShowDialog();
+            }
         }
     }
 }

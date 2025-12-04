@@ -30,11 +30,11 @@
         {
             label2 = new Label();
             label3 = new Label();
-            button4 = new Button();
+            buttonSubmit = new Button();
             checkBox1 = new CheckBox();
             label1 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            LoginUsername = new TextBox();
+            LoginPassword = new TextBox();
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             label4 = new Label();
             label5 = new Label();
@@ -62,16 +62,16 @@
             label3.Size = new Size(127, 41);
             label3.TabIndex = 1;
             label3.Text = "Password";
-            label3.Click += label3_Click;
             // 
-            // button4
+            // buttonSubmit
             // 
-            button4.Location = new Point(440, 306);
-            button4.Name = "button4";
-            button4.Size = new Size(75, 23);
-            button4.TabIndex = 3;
-            button4.Text = "Submit";
-            button4.UseVisualStyleBackColor = true;
+            buttonSubmit.Location = new Point(440, 306);
+            buttonSubmit.Name = "buttonSubmit";
+            buttonSubmit.Size = new Size(75, 23);
+            buttonSubmit.TabIndex = 3;
+            buttonSubmit.Text = "Submit";
+            buttonSubmit.UseVisualStyleBackColor = true;
+            buttonSubmit.Click += buttonSubmit_Click;
             // 
             // checkBox1
             // 
@@ -95,24 +95,20 @@
             label1.TabIndex = 0;
             label1.Text = "Welcome to NPC Manager";
             // 
-            // textBox1
+            // LoginUsername
             // 
-            textBox1.Location = new Point(338, 200);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(177, 23);
-            textBox1.TabIndex = 6;
+            LoginUsername.Location = new Point(338, 200);
+            LoginUsername.Name = "LoginUsername";
+            LoginUsername.Size = new Size(177, 23);
+            LoginUsername.TabIndex = 6;
             // 
-            // textBox2
+            // LoginPassword
             // 
-            textBox2.Font = new Font("Lucida Sans", 10F);
-            textBox2.Location = new Point(338, 248);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(177, 23);
-            textBox2.TabIndex = 6;
-            // 
-            // backgroundWorker1
-            // 
-            backgroundWorker1.DoWork += backgroundWorker1_DoWork;
+            LoginPassword.Font = new Font("Lucida Sans", 10F);
+            LoginPassword.Location = new Point(338, 248);
+            LoginPassword.Name = "LoginPassword";
+            LoginPassword.Size = new Size(177, 23);
+            LoginPassword.TabIndex = 6;
             // 
             // label4
             // 
@@ -153,10 +149,10 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.CadetBlue;
             ClientSize = new Size(800, 450);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(LoginPassword);
+            Controls.Add(LoginUsername);
             Controls.Add(checkBox1);
-            Controls.Add(button4);
+            Controls.Add(buttonSubmit);
             Controls.Add(label1);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -165,7 +161,6 @@
             Controls.Add(label6);
             Name = "UserLogin";
             Text = "Form1";
-            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -173,11 +168,11 @@
         #endregion
         private Label label2;
         private Label label3;
-        private Button button4;
+        private Button buttonSubmit;
         private CheckBox checkBox1;
         private Label label1;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox LoginUsername;
+        private TextBox LoginPassword;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private Label label4;
         private Label label5;
