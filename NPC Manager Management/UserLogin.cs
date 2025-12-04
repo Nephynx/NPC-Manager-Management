@@ -11,5 +11,10 @@ namespace NPC_Manager_Management
         {
 
         }
+
+        private void UserLogin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
