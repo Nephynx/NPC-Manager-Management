@@ -56,5 +56,10 @@ namespace NPC_Manager_Management
         {
 
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

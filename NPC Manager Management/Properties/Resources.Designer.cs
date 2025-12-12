@@ -59,5 +59,25 @@ namespace NPC_Manager_Management.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _16c5ecf22b9eef16b0f28c805a002c9b {
+            get {
+                object obj = ResourceManager.GetObject("16c5ecf22b9eef16b0f28c805a002c9b", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cole_eastburn_dwarfblacksmith {
+            get {
+                object obj = ResourceManager.GetObject("cole-eastburn-dwarfblacksmith", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
