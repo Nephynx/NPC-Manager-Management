@@ -178,7 +178,7 @@
             label4.ForeColor = Color.White;
             label4.Image = Properties.Resources._89fafcb192a63a08d5b7c133ce6875bd;
             label4.ImageAlign = ContentAlignment.TopLeft;
-            label4.Location = new Point(12, 9);
+            label4.Location = new Point(10, 9);
             label4.Name = "label4";
             label4.Size = new Size(302, 49);
             label4.TabIndex = 6;
