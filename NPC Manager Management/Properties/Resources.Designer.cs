@@ -59,5 +59,15 @@ namespace NPC_Manager_Management.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _794204bd9d539df36ec7390dc82fe08b {
+            get {
+                object obj = ResourceManager.GetObject("794204bd9d539df36ec7390dc82fe08b", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
