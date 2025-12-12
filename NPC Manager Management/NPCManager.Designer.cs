@@ -38,17 +38,22 @@
             dataGridView1 = new DataGridView();
             label4 = new Label();
             pictureBox1 = new PictureBox();
+            pictureBox2 = new PictureBox();
+            pictureBox3 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
             // 
             // button2
             // 
             button2.BackColor = Color.Transparent;
             button2.Cursor = Cursors.Hand;
+            button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("MS UI Gothic", 17.25F, FontStyle.Bold);
-            button2.ForeColor = Color.Black;
-            button2.Location = new Point(316, 12);
+            button2.ForeColor = Color.White;
+            button2.Location = new Point(327, 12);
             button2.Margin = new Padding(12);
             button2.Name = "button2";
             button2.Size = new Size(271, 39);
@@ -61,7 +66,9 @@
             // 
             button3.BackColor = Color.Transparent;
             button3.Cursor = Cursors.Hand;
+            button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("MS UI Gothic", 17.25F, FontStyle.Bold);
+            button3.ForeColor = Color.White;
             button3.Location = new Point(611, 12);
             button3.Margin = new Padding(12);
             button3.Name = "button3";
@@ -75,7 +82,9 @@
             // 
             button4.BackColor = Color.Transparent;
             button4.Cursor = Cursors.Hand;
+            button4.FlatStyle = FlatStyle.Flat;
             button4.Font = new Font("MS UI Gothic", 17.25F, FontStyle.Bold);
+            button4.ForeColor = Color.White;
             button4.Location = new Point(906, 12);
             button4.Margin = new Padding(12);
             button4.Name = "button4";
@@ -89,7 +98,9 @@
             // 
             button5.BackColor = Color.Transparent;
             button5.Cursor = Cursors.Hand;
+            button5.FlatStyle = FlatStyle.Flat;
             button5.Font = new Font("MS UI Gothic", 17.25F, FontStyle.Bold);
+            button5.ForeColor = Color.White;
             button5.Location = new Point(1201, 12);
             button5.Margin = new Padding(12);
             button5.Name = "button5";
@@ -101,9 +112,11 @@
             // 
             // button6
             // 
-            button6.BackColor = Color.Transparent;
+            button6.BackColor = Color.FromArgb(0, 192, 0);
             button6.Cursor = Cursors.Hand;
-            button6.Font = new Font("MS UI Gothic", 17.25F, FontStyle.Bold);
+            button6.FlatAppearance.BorderSize = 0;
+            button6.FlatStyle = FlatStyle.Flat;
+            button6.Font = new Font("MS UI Gothic", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button6.Location = new Point(21, 158);
             button6.Margin = new Padding(12);
             button6.Name = "button6";
@@ -115,9 +128,11 @@
             // 
             // button7
             // 
-            button7.BackColor = Color.Transparent;
+            button7.BackColor = Color.Cyan;
             button7.Cursor = Cursors.Hand;
-            button7.Font = new Font("MS UI Gothic", 17.25F, FontStyle.Bold);
+            button7.FlatAppearance.BorderSize = 0;
+            button7.FlatStyle = FlatStyle.Flat;
+            button7.Font = new Font("MS UI Gothic", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button7.Location = new Point(21, 260);
             button7.Margin = new Padding(12);
             button7.Name = "button7";
@@ -129,35 +144,43 @@
             // 
             // button8
             // 
+            button8.BackColor = Color.Red;
+            button8.BackgroundImageLayout = ImageLayout.None;
             button8.Cursor = Cursors.Hand;
-            button8.Font = new Font("MS UI Gothic", 17.25F, FontStyle.Bold);
+            button8.FlatAppearance.BorderColor = Color.Red;
+            button8.FlatStyle = FlatStyle.Flat;
+            button8.Font = new Font("MS UI Gothic", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button8.Location = new Point(21, 362);
             button8.Margin = new Padding(12);
             button8.Name = "button8";
             button8.Size = new Size(194, 78);
             button8.TabIndex = 0;
             button8.Text = "DELETE";
-            button8.UseVisualStyleBackColor = true;
+            button8.UseMnemonic = false;
+            button8.UseVisualStyleBackColor = false;
             button8.Click += button8_Click;
             // 
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(251, 91);
+            dataGridView1.Location = new Point(277, 158);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(1009, 492);
+            dataGridView1.Size = new Size(1102, 384);
             dataGridView1.TabIndex = 1;
             // 
             // label4
             // 
             label4.AutoSize = true;
             label4.BackColor = Color.Transparent;
+            label4.BorderStyle = BorderStyle.FixedSingle;
             label4.FlatStyle = FlatStyle.Flat;
             label4.Font = new Font("MS UI Gothic", 35.25F, FontStyle.Bold);
             label4.ForeColor = Color.White;
+            label4.Image = Properties.Resources._89fafcb192a63a08d5b7c133ce6875bd;
+            label4.ImageAlign = ContentAlignment.TopLeft;
             label4.Location = new Point(12, 9);
             label4.Name = "label4";
-            label4.Size = new Size(300, 47);
+            label4.Size = new Size(302, 49);
             label4.TabIndex = 6;
             label4.Text = "NPC Manager";
             label4.Click += label4_Click;
@@ -167,20 +190,44 @@
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox1.BorderStyle = BorderStyle.Fixed3D;
             pictureBox1.Image = Properties.Resources.cole_eastburn_dwarfblacksmith;
-            pictureBox1.Location = new Point(1276, 91);
+            pictureBox1.Location = new Point(0, -2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(196, 492);
+            pictureBox1.Size = new Size(517, 613);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 7;
             pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox2.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox2.Image = Properties.Resources.b8c081f876458f7d3403ef8296846e53;
+            pictureBox2.Location = new Point(515, -2);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(477, 613);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 8;
+            pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox3.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox3.Image = Properties.Resources.bill_washington_druid_web2;
+            pictureBox3.Location = new Point(988, -2);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(497, 613);
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox3.TabIndex = 9;
+            pictureBox3.TabStop = false;
             // 
             // NPCManager
             // 
             AutoScaleDimensions = new SizeF(27F, 58F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
+            BackgroundImage = Properties.Resources._4b34e106b08c95b1fef83e8164783729;
             ClientSize = new Size(1484, 611);
-            Controls.Add(pictureBox1);
             Controls.Add(label4);
             Controls.Add(dataGridView1);
             Controls.Add(button5);
@@ -190,6 +237,9 @@
             Controls.Add(button8);
             Controls.Add(button7);
             Controls.Add(button6);
+            Controls.Add(pictureBox1);
+            Controls.Add(pictureBox2);
+            Controls.Add(pictureBox3);
             Font = new Font("Bahnschrift", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Margin = new Padding(12);
             Name = "NPCManager";
@@ -197,6 +247,8 @@
             Load += NPCManager_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -212,5 +264,7 @@
         private DataGridView dataGridView1;
         private Label label4;
         private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
+        private PictureBox pictureBox3;
     }
 }
