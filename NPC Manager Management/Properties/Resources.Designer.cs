@@ -59,5 +59,85 @@ namespace NPC_Manager_Management.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _16c5ecf22b9eef16b0f28c805a002c9b {
+            get {
+                object obj = ResourceManager.GetObject("16c5ecf22b9eef16b0f28c805a002c9b", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _4b34e106b08c95b1fef83e8164783729 {
+            get {
+                object obj = ResourceManager.GetObject("4b34e106b08c95b1fef83e8164783729", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _6fed3ad83414f00ea5dd8cb1aa168245 {
+            get {
+                object obj = ResourceManager.GetObject("6fed3ad83414f00ea5dd8cb1aa168245", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _89fafcb192a63a08d5b7c133ce6875bd {
+            get {
+                object obj = ResourceManager.GetObject("89fafcb192a63a08d5b7c133ce6875bd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap b8c081f876458f7d3403ef8296846e53 {
+            get {
+                object obj = ResourceManager.GetObject("b8c081f876458f7d3403ef8296846e53", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bill_washington_druid_web2 {
+            get {
+                object obj = ResourceManager.GetObject("bill-washington-druid-web2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cole_eastburn_dwarfblacksmith {
+            get {
+                object obj = ResourceManager.GetObject("cole-eastburn-dwarfblacksmith", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2025_12_12_153247 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2025-12-12 153247", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
