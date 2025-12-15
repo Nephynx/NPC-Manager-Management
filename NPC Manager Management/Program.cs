@@ -8,10 +8,14 @@ namespace NPC_Manager_Management
 
             ApplicationConfiguration.Initialize();
 <<<<<<< HEAD
+<<<<<<< HEAD
             Application.Run(new NPCManager());
 =======
             Application.Run(new UserHome());
 >>>>>>> origin/UserHome
+=======
+            Application.Run(new NPCManager());
+>>>>>>> origin/NPCManager
         }
     }
 }
