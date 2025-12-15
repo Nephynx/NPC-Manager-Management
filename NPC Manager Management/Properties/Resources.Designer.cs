@@ -63,6 +63,7 @@ namespace NPC_Manager_Management.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap _16c5ecf22b9eef16b0f28c805a002c9b {
             get {
                 object obj = ResourceManager.GetObject("16c5ecf22b9eef16b0f28c805a002c9b", resourceCulture);
@@ -136,6 +137,11 @@ namespace NPC_Manager_Management.Properties {
         internal static System.Drawing.Bitmap Screenshot_2025_12_12_153247 {
             get {
                 object obj = ResourceManager.GetObject("Screenshot 2025-12-12 153247", resourceCulture);
+=======
+        internal static System.Drawing.Bitmap _794204bd9d539df36ec7390dc82fe08b {
+            get {
+                object obj = ResourceManager.GetObject("794204bd9d539df36ec7390dc82fe08b", resourceCulture);
+>>>>>>> origin/UserHome
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

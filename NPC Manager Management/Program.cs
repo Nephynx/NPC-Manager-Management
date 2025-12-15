@@ -7,7 +7,11 @@ namespace NPC_Manager_Management
         {
 
             ApplicationConfiguration.Initialize();
+<<<<<<< HEAD
             Application.Run(new NPCManager());
+=======
+            Application.Run(new UserHome());
+>>>>>>> origin/UserHome
         }
     }
 }
