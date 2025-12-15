@@ -19,7 +19,7 @@ namespace NPC_Manager_Management
 
         private void NPCManager_Load(object sender, EventArgs e)
         {
-             
+                
         }
 
         private void button2_Click(object sender, EventArgs e)
