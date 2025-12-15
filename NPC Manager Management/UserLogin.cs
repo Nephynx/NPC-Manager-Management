@@ -33,5 +33,10 @@ namespace NPC_Manager_Management
                 userhome.ShowDialog();
             }
         }
+
+        private void UserLogin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

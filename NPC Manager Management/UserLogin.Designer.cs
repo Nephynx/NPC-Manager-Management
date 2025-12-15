@@ -149,6 +149,7 @@
             Controls.Add(label6);
             Name = "UserLogin";
             Text = "Form1";
+            Load += UserLogin_Load;
             ResumeLayout(false);
             PerformLayout();
         }
